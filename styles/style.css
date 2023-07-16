@@ -81,3 +81,49 @@ header {
 .banner-image img{
     width: 100%;
 }
+/* QUICK LIST SECTION  */
+.quick-list-section{
+    height: 100vh;
+    padding: 40px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.quick-list-images{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.quick-list-images img{
+    width: 100%;
+}
+.quick-list-infos h1{
+    font-size: 2.2rem;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.quick-list-infos p{
+    font-size: 0.8rem;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.quick-list-infos button{
+    padding: 12px 20px;
+    background-color: #5661fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.quick-list-infos button:hover{
+    background-color: #979dfc;
+    transition: 0.2s;
+}
+.grey{
+    color: #727272;
+}
+.blue{
+    color: #5661fc;
+}
