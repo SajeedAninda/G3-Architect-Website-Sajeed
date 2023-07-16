@@ -150,13 +150,65 @@ header {
     color: #5661fc;
 }
 
+/* FEATURES SECTION  */
+.features-container {
+    padding: 0px 140px 20px 140px;
+    display: flex;
+    gap: 50px;
+}
+
+.features-details {
+    width: 50%;
+}
+
+.features-details>h1 {
+    font-size: 2rem;
+    color: #131313;
+    margin-bottom: 10px;
+    border-left: 5px solid #5661fc;
+    padding-left: 10px;
+}
+
+.features-details>p {
+    font-size: 0.8rem;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.features-details-card .card {
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.12);
+    padding: 25px 20px;
+    margin-bottom: 20px;
+}
+
+.features-details-card .card h3 {
+    font-size: 1rem;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-details-card .card p {
+    font-size: 0.8rem;
+    color: #727272;
+}
+
+.features-image {
+    width: 50%;
+}
+
+.features-image img {
+    width: 100%;
+}
+
 /* FACTS SECTION  */
 .facts-section-container {
     height: 60vh;
 }
 
 .facts-description {
-    padding: 0px 140px 30px 140px;
+    padding: 50px 140px 30px 140px;
 }
 
 .facts-description>h1 {
