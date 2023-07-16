@@ -46,27 +46,33 @@ header {
 }
 
 .navbar ul li a:hover {
-    color: black;
+    color: #5661fc;
+    transition: 0.2s;
 }
+
 /* BANNER SECTION  */
-.banner-section{
+.banner-section {
     padding: 30px 140px 20px 140px;
 }
-.banner-infos{
+
+.banner-infos {
     text-align: center;
     margin-bottom: 20px;
 }
-.banner-infos h1{
+
+.banner-infos h1 {
     font-size: 2.2rem;
     color: #131313;
     margin-bottom: 10px;
 }
-.banner-infos p{
+
+.banner-infos p {
     font-size: 0.8rem;
     color: #727272;
     margin-bottom: 10px;
 }
-.banner-infos button{
+
+.banner-infos button {
     padding: 12px 20px;
     background-color: #5661fc;
     border: none;
@@ -74,42 +80,54 @@ header {
     color: white;
     cursor: pointer;
 }
-.banner-infos button:hover{
+
+.banner-infos button:hover {
     background-color: #979dfc;
     transition: 0.2s;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
 }
+
 /* QUICK LIST SECTION  */
-.quick-list-section{
+.quick-list-section {
     height: 100vh;
     padding: 40px 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
 }
-.quick-list-images{
+
+.quick-list-images {
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
-.quick-list-images img{
+
+.quick-list-images img {
     width: 100%;
 }
-.quick-list-infos h1{
+.quick-list-images img:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.quick-list-infos h1 {
     font-size: 2.2rem;
     color: #131313;
     margin-bottom: 10px;
 }
-.quick-list-infos p{
+
+.quick-list-infos p {
     font-size: 0.8rem;
     color: #727272;
     margin-bottom: 10px;
 }
-.quick-list-infos button{
+
+.quick-list-infos button {
     padding: 12px 20px;
     background-color: #5661fc;
     border: none;
@@ -117,13 +135,62 @@ header {
     color: white;
     cursor: pointer;
 }
-.quick-list-infos button:hover{
+
+.quick-list-infos button:hover {
     background-color: #979dfc;
     transition: 0.2s;
 }
-.grey{
+
+.grey {
     color: #727272;
 }
-.blue{
+
+.blue {
     color: #5661fc;
+}
+
+/* FACTS SECTION  */
+.facts-section-container{
+    height: 60vh;
+}
+.facts-description{
+    padding: 0px 140px 30px 140px;
+}
+.facts-description > h1{
+    font-size: 2.2rem;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.facts-description > p{
+    font-size: 0.8rem;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.facts-boxes{
+    padding: 20px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    height: 170px;
+    width: 165px;
+    padding: 35px 30px;
+    border: 1px solid #5661fc;
+    border-radius: 5px;
+    text-align: center;
+}
+.box:hover{
+    background-color: rgb(235, 230, 230);
+    transition: 0.2s;
+}
+.box h3{
+    font-size: 1.5rem;
+    color: #424242;
+    font-weight: 600;
+}
+.box h5{
+    font-size: 0.8rem;
+    color: #727272;
+    font-weight: 600;
 }
