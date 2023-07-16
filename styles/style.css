@@ -194,3 +194,33 @@ header {
     color: #727272;
     font-weight: 600;
 }
+
+/* SPONSORS SECTION  */
+.sponsors-section{
+    height: 50vh;
+    padding: 0px 140px 20px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.sponsors-section h1{
+    font-size: 2rem;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.sponsors-section p{
+    font-size: 0.8rem;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.sponsors-section .sponsor-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors-section .sponsor-images img{
+    width: 10%;
+}
