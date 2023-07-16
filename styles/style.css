@@ -13,7 +13,7 @@
 }
 
 header {
-    background-color: rgba(99, 180, 247, 0.1);
+    background-color: rgba(92, 169, 231, 0.1);
     height: 130vh;
 }
 
@@ -110,7 +110,8 @@ header {
 .quick-list-images img {
     width: 100%;
 }
-.quick-list-images img:hover{
+
+.quick-list-images img:hover {
     opacity: 0.6;
     transition: 0.2s;
 }
@@ -150,29 +151,34 @@ header {
 }
 
 /* FACTS SECTION  */
-.facts-section-container{
+.facts-section-container {
     height: 60vh;
 }
-.facts-description{
+
+.facts-description {
     padding: 0px 140px 30px 140px;
 }
-.facts-description > h1{
+
+.facts-description>h1 {
     font-size: 2.2rem;
     color: #131313;
     margin-bottom: 10px;
 }
-.facts-description > p{
+
+.facts-description>p {
     font-size: 0.8rem;
     color: #727272;
     margin-bottom: 10px;
 }
-.facts-boxes{
+
+.facts-boxes {
     padding: 20px 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.box{
+
+.box {
     height: 170px;
     width: 165px;
     padding: 35px 30px;
@@ -180,23 +186,26 @@ header {
     border-radius: 5px;
     text-align: center;
 }
-.box:hover{
+
+.box:hover {
     background-color: rgb(235, 230, 230);
     transition: 0.2s;
 }
-.box h3{
+
+.box h3 {
     font-size: 1.5rem;
     color: #424242;
     font-weight: 600;
 }
-.box h5{
+
+.box h5 {
     font-size: 0.8rem;
     color: #727272;
     font-weight: 600;
 }
 
 /* SPONSORS SECTION  */
-.sponsors-section{
+.sponsors-section {
     height: 50vh;
     padding: 0px 140px 20px 140px;
     display: flex;
@@ -206,21 +215,37 @@ header {
     align-items: center;
     text-align: center;
 }
-.sponsors-section h1{
+
+.sponsors-section h1 {
     font-size: 2rem;
     color: #131313;
     margin-bottom: 10px;
 }
-.sponsors-section p{
+
+.sponsors-section p {
     font-size: 0.8rem;
     color: #727272;
     margin-bottom: 10px;
 }
-.sponsors-section .sponsor-images{
+
+.sponsors-section .sponsor-images {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.sponsors-section .sponsor-images img{
+
+.sponsors-section .sponsor-images img {
     width: 10%;
+    cursor: pointer;
+}
+
+/* FOOTER SECTION  */
+footer {
+    background-color: rgba(99, 180, 247, 0.1);
+    height: 10vh;
+    margin: 80px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #424242;
 }
